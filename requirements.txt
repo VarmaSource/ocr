@@ -1,3 +1,2 @@
 strimlit
 pytesseract
-PIL
