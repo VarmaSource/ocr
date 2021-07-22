@@ -2,7 +2,6 @@ import streamlit as st
 import pytesseract
 from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = '/app/.apt/urs/bin/tesseract'
-#hi
 st.title("Minor Project")
 img=st.sidebar.file_uploader("Choose an image")
 if img is not None:
